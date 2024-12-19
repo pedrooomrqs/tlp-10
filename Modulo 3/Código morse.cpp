@@ -9,7 +9,6 @@ void main()
 	int
 		letras,
 		escolha;
-
 	char 
 		frase[100], 
 		abecedario[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
@@ -18,8 +17,8 @@ void main()
 		codigomorse[26] = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
 
 	cout << "---> Tradutor Morse <---\n";
-	cout << "1 - Português para Morse\n";
-	cout << "2 - Morse para Português\n\n";
+	cout << "1 - PortuguÃªs para Morse\n";
+	cout << "2 - Morse para PortuguÃªs\n\n";
 
 	cout << "0 - Exit\n\n";
 
@@ -46,7 +45,7 @@ void main()
 
 		system("cls");
 
-		cout << "Esta é a tua frase traduzida para Morse >> ";
+		cout << "Esta Ã© a tua frase traduzida para Morse >> ";
 		for (int i = 0; i < letras; i++)
 		{
 			for (int j = 0; j < 26; j++)
@@ -73,7 +72,7 @@ void main()
 
 		system("cls");
 
-		cout << "Esta é a tua frase traduzida para Português >> ";
+		cout << "Esta Ã© a tua frase traduzida para PortuguÃªs >> ";
 		for (int i = 0; i < letras; i++)
 		{
 			for (int j = 0; j < 26; j++)
