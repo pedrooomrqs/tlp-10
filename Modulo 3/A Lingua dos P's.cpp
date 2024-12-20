@@ -7,12 +7,10 @@ void main()
 {
 	setlocale(LC_ALL, "Portuguese");
 	int
-		letras
-		;
+		letras;
 	char
 		vogais[5] = { 'a', 'e', 'i', 'o', 'u' },
-		frase[100]
-		;
+		frase[100];
 
 	cout << "Quantas letras tem a tua frase/palavra >> ";
 		cin >> letras;
