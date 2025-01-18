@@ -12,14 +12,14 @@ int deposito(int saldo)
 
 	if (paradepositar < 0)
 	{
-		"Erro, não podes depositar valores menores que 0!";
+		cout << "\nErro, não podes depositar valores menores que 0!\n\n";
 	}
 
 	else
 	{
 		saldo = saldo + paradepositar;
 
-		cout << "Depósito concluido";
+		cout << "\nDepósito concluido.\n\n";
 
 		
 	}
@@ -35,19 +35,19 @@ int retirar(int saldo)
 
 	if (pararetirar > saldo)
 	{
-		cout << "Erro, não podes retirar mais que o que tens!";
+		cout << "\nErro, não podes retirar mais que o que tens!\n\n";
 	}
 
 	else if (pararetirar < 0)
 	{
-		cout << "Erro, não podes retirar valores menores que 0!";
+		cout << "\nErro, não podes retirar valores menores que 0!\n\n";
 	}
 
 	else
 	{
 		saldo = saldo - pararetirar;
 
-		cout << "Débito concluido!";
+		cout << "\nDébito concluido!\n\n";
 
 		
 	}
@@ -59,27 +59,27 @@ int enviardinheiro(int saldo)
 	string nome;
 	int subtrair = 0;
 
-	cout << "Digite o nome que você quer enviar o dinheiro >> ";
+	cout << "Para quem quer enviar o dinheiro >> ";
 	cin >> nome;
 
-	cout << "Agora o valor >> ";
+	cout << "Qual o montante >> ";
 	cin >> subtrair;
 
 	if (subtrair > saldo)
 	{
-		cout << "Erro, não podes retirar mais que o que tens!";
+		cout << "\nErro, não podes retirar mais que o que tens!\n\n";
 	}
 
 	else if (subtrair < 0)
 	{
-		cout << "Erro, não podes retirar valores menores que 0!";
+		cout << "\nErro, não podes retirar valores menores que 0!\n\n";
 	}
 
 	else
 	{
 		saldo = saldo - subtrair;
 
-		cout << "Débito concluido!";
+		cout << "\nDébito concluido!\n\n";
 
 		
 	}return saldo;
@@ -87,7 +87,7 @@ int enviardinheiro(int saldo)
 
 void verificarsaldo(int saldo)
 {
-	cout << "O seu saldo atual é " << saldo<<"\n";
+	cout << "O seu saldo atual é " << saldo << "\n\n";
 }
 
 void start()
