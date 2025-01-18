@@ -135,8 +135,6 @@ void start()
 	} while (escolha != 0);
 }
 
-
-
 void main()
 {
 	start();
