@@ -3,6 +3,8 @@
 #include <locale.h>
 using namespace std;
 
+// Com Miguel e Heros
+
 int main()
 {
 	int i, 
