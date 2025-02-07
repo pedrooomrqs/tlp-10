@@ -3,6 +3,8 @@
 #include <locale.h>
 using namespace std;
 
+// Com Tomas, Heros, Andre, Andrei, Thomas e Leonardo
+
 void main()
 {
 	int 
