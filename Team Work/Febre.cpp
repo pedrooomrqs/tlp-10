@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Com Tomas
+// Com Tomas Dias
 
 void main()
 {
