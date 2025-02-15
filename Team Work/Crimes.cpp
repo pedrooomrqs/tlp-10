@@ -3,7 +3,7 @@
 #include <locale.h>
 using namespace std;
 
-// Com Tomas, Heros, Andre, Andrei, Thomas e Leonardo
+// Com Tomas Dias, Heros, Andre, Andrei, Thomas Guerreiro e Leonardo
 
 void main()
 {
