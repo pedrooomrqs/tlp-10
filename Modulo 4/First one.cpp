@@ -12,7 +12,7 @@ void media(int numeros[])
 		total = total + numeros[i];
 	}
 
-	cout << "A média dos 10 numeros é: " << total / 10;
+	cout << "\nA mÃ©dia dos 10 numeros Ã©: " << total / 10 << "\n";
 }
 
 void menor(int numeros[])
@@ -28,7 +28,7 @@ void menor(int numeros[])
 		}
 	}
 
-	cout << "\nO menor numero é o " << menor;
+	cout << "\nO menor numero Ã© o " << menor << "\n";
 }
 
 void maior(int numeros[])
@@ -44,7 +44,7 @@ void maior(int numeros[])
 		}
 	}
 
-	cout << "\nO maior numero é o " << maior;
+	cout << "\nO maior numero Ã© o " << maior << "\n";
 }
 
 void main() 
@@ -54,21 +54,22 @@ void main()
 
 	for (int i = 0; i < 10; i++)
 	{
-		cout << "Diz-me o " << i + 1 << "º numero >> ";
+		cout << "Diz-me o " << i + 1 << "Âº numero >> ";
 		cin >> numeros[i];
 	}
 
-	cout << "\n1 - Calcular a média dos numeros\n";
-	cout << "2 - Achar o menor numero\n";
-	cout << "3 - Achar o maior numero\n\n";
+	do {
+		cout << "\n1 - Calcular a mÃ©dia dos numeros\n";
+		cout << "2 - Achar o menor numero\n";
+		cout << "3 - Achar o maior numero\n\n";
 
-	cout << "0 - Sair\n\n";
+		cout << "0 - Sair\n\n";
 
-	cout << "Escolha >> ";
-	cin >> escolha;
+		cout << "Escolha >> ";
+		cin >> escolha;
 
-	switch (escolha)
-	{
+		switch (escolha)
+		{
 		case 0:
 			system("cls");
 
@@ -93,5 +94,6 @@ void main()
 			maior(numeros);
 
 			break;
-	}
+		}
+	} while (escolha != 0);
 }
